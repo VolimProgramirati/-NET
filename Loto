@@ -18,7 +18,7 @@ unos:
             'u suprotnom ispisati izvuceni broj
             WriteLine(broj)
             izvuceni_brojevi = izvuceni_brojevi Or (1 << broj)
-            i += 1
+            i += 1 'brojimo izvlačenja
             If i <= 7 Then
                 GoTo unos
             End If
